@@ -1,17 +1,54 @@
 # COMEM+ Web Services course
 
-## Plan
 
-* Use case (citizen engagement)
-* Architecture **NEW!**
+
+## Requirements
+
+* [Google Chrome][chrome] (recommended, any browser with developer tools will do)
+* [Postman][postman] (recommended, any tool that makes raw HTTP requests will do)
+
+
+
+## New plan
+
+* Citizen Engagement project
+* Architecture
 
 * Tooling
-  * Command line **NEW!**
-  * Version control (Git) **NEW!**
-  * SSH
-  * GitHub
+  * [Command line](https://github.com/MediaComem/comem-webdev/tree/master/subjects/cli)
+  * [Version control with Git](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git)
+  * [Collaborating with Git and GitHub](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git-collaborating)
 
-* JavaScript **ES5**
+* Basics
+  * [JavaScript](https://github.com/MediaComem/comem-webdev/tree/master/subjects/js)
+  * [Node.js](https://github.com/MediaComem/comem-webdev/tree/master/subjects/node)
+  * [npm](https://github.com/MediaComem/comem-webdev/tree/master/subjects/npm)
+  * [REST APIs](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest)
+
+* Creating an API server
+  * [Express](https://github.com/MediaComem/comem-webdev/tree/master/subjects/express)
+  * PaaS with Heroku
+
+* Plugging in the database
+  * [MongoDB](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongodb)
+  * [Mongoose](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongoose)
+
+* Going further
+  * JavaScript closures
+  * JavaScript asynchronous code
+  * [REST API conventions](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest-conventions)
+  * Express middleware
+  * Filtering with Express & Mongoose
+  * Pagination with Express & Mongoose
+  * Mongoose population
+  * MongoDB aggregations
+  * MongoDB geospatial queries
+
+
+
+## Old plan (from previous course)
+
+* JavaScript
   * Basics
 
 * Node.js
@@ -52,9 +89,9 @@
 * Geospatial queries
 
 * JavaScript principles:
-  * Scopes **ES6 Scopes (let)**
+  * Scopes
   * Prototypes
-  * Classes **ES6 classes**
+  * Classes
   * Closures
   * Asynchronous code
 
