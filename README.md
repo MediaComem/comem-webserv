@@ -17,7 +17,8 @@
 * Tooling
   * [Command line](https://github.com/MediaComem/comem-webdev/tree/master/subjects/cli)
   * [Version control with Git](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git)
-  * [Collaborating with Git and GitHub](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git-collaborating)
+  * [Git branching](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git-branching)
+  * [Collaborating with Git](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git-collaborating)
 
 * Basics
   * [JavaScript](https://github.com/MediaComem/comem-webdev/tree/master/subjects/js)
