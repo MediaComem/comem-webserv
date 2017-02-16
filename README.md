@@ -22,22 +22,23 @@
 
 * Basics
   * [JavaScript](https://github.com/MediaComem/comem-webdev/tree/master/subjects/js)
-  * [Node.js](https://github.com/MediaComem/comem-webdev/tree/master/subjects/node)
-  * [npm](https://github.com/MediaComem/comem-webdev/tree/master/subjects/npm)
+  * [Node.js](https://github.com/MediaComem/comem-webdev/tree/master/subjects/node) server-side JavaScript runtime
+  * [npm](https://github.com/MediaComem/comem-webdev/tree/master/subjects/npm) (Node.js package manager)
   * [REST APIs](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest)
 
-* Creating an API server
-  * [Express](https://github.com/MediaComem/comem-webdev/tree/master/subjects/express)
-  * PaaS with Heroku
+* Creating and deploying a web service
+  * [Express](https://github.com/MediaComem/comem-webdev/tree/master/subjects/express) web framework
+  * [Heroku](https://github.com/MediaComem/comem-webdev/tree/master/subjects/heroku) cloud application platform
 
 * Plugging in the database
-  * [MongoDB](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongodb)
-  * [Mongoose](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongoose)
+  * [MongoDB](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongodb) database
+  * [Mongoose](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongoose) Object-Document Mapper
 
 * Going further
   * JavaScript closures
   * JavaScript asynchronous code
   * [REST API conventions](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest-conventions)
+  * REST API documentation
   * Express middleware
   * Filtering with Express & Mongoose
   * Pagination with Express & Mongoose
