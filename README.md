@@ -23,7 +23,7 @@
 * Basics
   * [JavaScript](https://github.com/MediaComem/comem-webdev/tree/master/subjects/js)
   * [Node.js](https://github.com/MediaComem/comem-webdev/tree/master/subjects/node) server-side JavaScript runtime
-  * [npm](https://github.com/MediaComem/comem-webdev/tree/master/subjects/npm) (Node.js package manager)
+  * [npm](https://github.com/MediaComem/comem-webdev/tree/master/subjects/npm) Node.js package manager
   * [REST APIs](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest)
 
 * Creating and deploying a web service
