@@ -56,14 +56,14 @@ Your REST API must provide (at least) the following operations:
 
 * Create a user
 * Retrieve a user
-  * The response should indicate how many issues the user has created
+  * The response must indicate how many issues the user has created
 * Update a user
 * Create an issue
   * The issue must belong to one user
 * Retrieve an issue
 * Retrieve a list of issues
-  * The list should be paginated
-  * There should be at least 1 filter
+  * The list must be paginated
+  * There must be at least 1 filter
 * Update an issue
 * Delete an issue
 
@@ -78,9 +78,8 @@ Your REST API must provide (at least) the following operations:
 
 **Quality of the implementation**
 
-* You should follow REST best practices
-* Your asynchronous code should be correct
-* Your Express routes should handle errors
+* You must follow REST best practices
+* Your Express routes must handle errors
 
 ### Delivery
 
