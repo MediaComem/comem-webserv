@@ -15,29 +15,29 @@
 * Architecture
 
 * Tooling
-  * [Command line](https://github.com/MediaComem/comem-webdev/tree/master/subjects/cli)
-  * [Version control with Git](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git)
-  * [Git branching](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git-branching)
-  * [Collaborating with Git](https://github.com/MediaComem/comem-webdev/tree/master/subjects/git-collaborating)
+  * [Command line](https://mediacomem.github.io/comem-webdev-docs/subjects/cli?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Version control with Git](https://mediacomem.github.io/comem-webdev-docs/subjects/git?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Git branching](https://mediacomem.github.io/comem-webdev-docs/subjects/git-branching?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Collaborating with Git](https://mediacomem.github.io/comem-webdev-docs/subjects/git-collaborating?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Basics
-  * [JavaScript](https://github.com/MediaComem/comem-webdev/tree/master/subjects/js)
-  * [Node.js](https://github.com/MediaComem/comem-webdev/tree/master/subjects/node) server-side JavaScript runtime
-  * [npm](https://github.com/MediaComem/comem-webdev/tree/master/subjects/npm) Node.js package manager
-  * [REST APIs](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest)
+  * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) server-side JavaScript runtime
+  * [npm](https://mediacomem.github.io/comem-webdev-docs/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
+  * [REST APIs](https://mediacomem.github.io/comem-webdev-docs/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Creating and deploying a web service
-  * [Express](https://github.com/MediaComem/comem-webdev/tree/master/subjects/express) web framework
-  * [Heroku](https://github.com/MediaComem/comem-webdev/tree/master/subjects/heroku) cloud application platform
+  * [Express](https://mediacomem.github.io/comem-webdev-docs/subjects/express?home=MediaComem%2Fcomem-webserv%23readme) web framework
+  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
 
 * Plugging in the database
-  * [MongoDB](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongodb) database
-  * [Mongoose](https://github.com/MediaComem/comem-webdev/tree/master/subjects/mongoose) Object-Document Mapper
+  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) database
+  * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
 
 * Going further
   * JavaScript closures
   * JavaScript asynchronous code
-  * [REST API conventions](https://github.com/MediaComem/comem-webdev/tree/master/subjects/rest-conventions)
+  * [REST API conventions](https://mediacomem.github.io/comem-webdev-docs/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
   * REST API documentation
   * Express middleware
   * Filtering with Express & Mongoose
