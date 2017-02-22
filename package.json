@@ -1,0 +1,30 @@
+{
+  "name": "comem-webserv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Materials for the COMEM+ Web Services course",
+  "main": "index.js",
+  "scripts": {
+    "doctoc": "doctoc --notitle --github README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MediaComem/comem-webserv.git"
+  },
+  "keywords": [
+    "rest",
+    "web-service",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "COMEM+",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MediaComem/comem-webserv/issues"
+  },
+  "homepage": "https://github.com/MediaComem/comem-webserv#readme",
+  "dependencies": {
+    "doctoc": "^1.2.0"
+  }
+}

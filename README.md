@@ -1,18 +1,22 @@
 # COMEM+ Web Services course
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-## Tools
+- [Plan](#plan)
+- [What you will need](#what-you-will-need)
+- [Useful links](#useful-links)
+- [Evaluation](#evaluation)
+  - [Delivery](#delivery)
 
-* [Google Chrome][chrome] (recommended, any browser with developer tools will do)
-* [Postman][postman] (recommended, any tool that makes raw HTTP requests will do)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 
 ## Plan
 
-* Citizen Engagement project
-* Architecture
+* [Introduction](https://mediacomem.github.io/comem-webdev-docs/subjects/webserv-course?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Tooling
   * [Command line](https://mediacomem.github.io/comem-webdev-docs/subjects/cli?home=MediaComem%2Fcomem-webserv%23readme)
@@ -22,7 +26,7 @@
 
 * Basics
   * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) server-side JavaScript runtime
+  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) JavaScript runtime
   * [npm](https://mediacomem.github.io/comem-webdev-docs/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
   * [REST APIs](https://mediacomem.github.io/comem-webdev-docs/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
 
@@ -31,20 +35,31 @@
   * [Heroku](https://mediacomem.github.io/comem-webdev-docs/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
 
 * Plugging in the database
-  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) database
+  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
   * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
 
-* Going further
-  * JavaScript closures
-  * JavaScript asynchronous code
-  * [REST API conventions](https://mediacomem.github.io/comem-webdev-docs/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
+* Enriching the web service
+  * REST API conventions
   * REST API documentation
-  * Express middleware
+  * JavaScript closures
   * Filtering with Express & Mongoose
   * Pagination with Express & Mongoose
-  * Mongoose population
   * MongoDB aggregations
-  * MongoDB geospatial queries
+
+
+
+## What you will need
+
+* [Google Chrome][chrome] (recommended, any browser with developer tools will do)
+* [Git][git-downloads]
+* [Postman][postman] (recommended, any tool that makes raw HTTP requests will do)
+
+
+
+## Useful links
+
+* [Architecture & source code management diagrams][diagrams]
+* [Demonstration REST API implemented with Express][demo-api]
 
 
 
@@ -56,18 +71,18 @@ Your REST API must provide (at least) the following operations:
 
 * Create a user
 * Retrieve a user
-  * The response must indicate how many issues the user has created
-* Update a user
+  * *Bonus:* the response indicates how many issues the user has created
+* Update a user (fully or partially)
 * Create an issue
   * The issue must belong to one user
 * Retrieve an issue
-* Retrieve a list of issues
-  * The list must be paginated
-  * There must be at least 1 filter
-* Update an issue
+* Retrieve the list of issues
+  * *Bonus:* the list is paginated
+  * *Bonus:* there is at least 1 filter
+* Update an issue (fully or partially)
 * Delete an issue
 
-**Delivery**
+**Infrastructure**
 
 * The source code of your REST API must be in a repository on GitHub
 * Your REST API must be deployed on Heroku
@@ -81,70 +96,21 @@ Your REST API must provide (at least) the following operations:
 * You must follow REST best practices
 * Your Express routes must handle errors
 
+Items with the *Bonus* mention are not required to obtain the maximum grade,
+but will increase your grade if there are other issues in your project.
+
 ### Delivery
 
-* Send an e-mail to Simon Oulevay and Jean-Pierre Hess with:
-  * The list of group members
-  * The link to your source code repository on GitHub
-  * The link to your deployed REST API on Heroku
+Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierre Hess with:
 
-
-
-## Old plan (from previous course)
-
-* JavaScript
-  * Basics
-
-* Node.js
-  * Asynchronicity
-  * npm
-
-* Express.js
-  * Middleware
-  * Routing
-  * Postman
-
-* PaaS (Heroku)
-
-* MongoDB
-  * Embedded vs collection
-
-* Mongoose
-
-* REST principles:
-  * REST
-  * CRUD
-  * URL structure
-  * Linked resources
-  * Resources & actions
-  * Pagination
-  * Sorting **more examples**
-  * Filtering
-  * Authentication
-
-* MongoDB, Mongoose & Express.js examples
-  * Parsing request data
-  * Avoiding repetition with middleware
-  * Filtering
-  * Mongoose references & population
-  * Pagination
-  * Aggregations
-
-* Geospatial queries
-
-* JavaScript principles:
-  * Scopes
-  * Prototypes
-  * Classes
-  * Closures
-  * Asynchronous code
-
-* REST API documentation:
-  * RAML
-  * ApiDoc
-  * Markdown
+* The list of group members
+* The link to your source code repository on GitHub
+* The to your deployed REST API on Heroku
 
 
 
 [chrome]: https://www.google.com/chrome/
+[demo-api]: https://github.com/MediaComem/comem-webdev-express-rest-demo
+[diagrams]: diagrams.pdf
+[git-downloads]: https://git-scm.com/downloads
 [postman]: https://www.getpostman.com
