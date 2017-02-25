@@ -1,5 +1,15 @@
 # COMEM+ Web Services course
 
+The goal of this course is to teach the generic concept of **web service**, focusing on **REST**ful APIs as one way to expose such a service.
+You will:
+
+* Learn the **core principles** of the REST architectural style
+* Learn how to **implement** a RESTful API in JavaScript
+* Learn how to **manage** your source code on a collaborative platform
+* Learn how to **deploy** your RESTful API on a cloud application platform
+
+This course is a [COMEM+][comem] [web development course][comem-webdev] taught at [HEIG-VD][heig].
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -28,22 +38,21 @@
   * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
   * [Node.js](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) JavaScript runtime
   * [npm](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
-  * [REST APIs](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
+  * [RESTful APIs](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
 
-* Creating and deploying a web service
+* Creating a web service
   * [Express](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express?home=MediaComem%2Fcomem-webserv%23readme) web framework
-  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
-
-* Plugging in the database
   * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
   * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
 
-* Enriching the web service
+* Deploying a web service
+  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
+
+* Enriching your web service
   * REST API conventions
   * REST API documentation
-  * JavaScript closures
-  * Filtering with Express & Mongoose
-  * Pagination with Express & Mongoose
+  * [Using Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination)
+  * Avoiding repetition with Express middleware
   * MongoDB aggregations
 
 
@@ -89,7 +98,7 @@ Your REST API must provide (at least) the following operations:
 
 **Documentation**
 
-* Your REST API must be documented
+* Your REST API must be documented ([apiDoc][apidoc] recommended)
 
 **Quality of the implementation**
 
@@ -109,8 +118,12 @@ Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierr
 
 
 
+[apidoc]: http://apidocjs.com
 [chrome]: https://www.google.com/chrome/
+[comem]: http://www.heig-vd.ch/comem
+[comem-webdev]: https://github.com/MediaComem/comem-webdev
 [demo-api]: https://github.com/MediaComem/comem-webdev-express-rest-demo
 [diagrams]: diagrams.pdf
 [git-downloads]: https://git-scm.com/downloads
+[heig]: http://www.heig-vd.ch
 [postman]: https://www.getpostman.com
