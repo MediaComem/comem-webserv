@@ -45,15 +45,14 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
   * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
   * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
 
-* Deploying a web service
+* Deploying your web service
   * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
 
 * Enriching your web service
-  * REST API conventions
-  * REST API documentation
-  * [Using Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination)
-  * Avoiding repetition with Express middleware
-  * MongoDB aggregations
+  * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
+  * RESTful API documentation
 
 
 
@@ -98,12 +97,12 @@ Your REST API must provide (at least) the following operations:
 
 **Documentation**
 
-* Your REST API must be documented ([apiDoc][apidoc] recommended)
+* Your REST API must be documented
 
 **Quality of the implementation**
 
 * You must follow REST best practices
-* Your Express routes must handle errors
+* Your Express routes must handle asynchronous operation errors
 
 Items with the *Bonus* mention are not required to obtain the maximum grade,
 but will increase your grade if there are other issues in your project.
@@ -118,7 +117,6 @@ Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierr
 
 
 
-[apidoc]: http://apidocjs.com
 [chrome]: https://www.google.com/chrome/
 [comem]: http://www.heig-vd.ch/comem
 [comem-webdev]: https://github.com/MediaComem/comem-webdev
