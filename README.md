@@ -68,6 +68,7 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 
 * [Architecture & source code management diagrams][diagrams]
 * [Demonstration REST API implemented with Express][demo-api] ([documentation][demo-api-doc])
+* [Git cheatsheet][git-cheatsheet]
 
 
 
@@ -127,6 +128,7 @@ Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierr
 [demo-api]: https://github.com/MediaComem/comem-webdev-express-rest-demo
 [demo-api-doc]: https://mediacomem.github.io/comem-webdev-express-rest-demo/
 [diagrams]: diagrams.pdf
+[git-cheatsheet]: https://github.com/MediaComem/comem-webdev/blob/master/GIT-CHEATSHEET.md
 [git-downloads]: https://git-scm.com/downloads
 [heig]: http://www.heig-vd.ch
 [postman]: https://www.getpostman.com
