@@ -67,7 +67,7 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 ## Useful links
 
 * [Architecture & source code management diagrams][diagrams]
-* [Demonstration REST API implemented with Express][demo-api]
+* [Demonstration REST API implemented with Express][demo-api] ([documentation][demo-api-doc])
 
 
 
@@ -125,6 +125,7 @@ Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierr
 [comem]: http://www.heig-vd.ch/comem
 [comem-webdev]: https://github.com/MediaComem/comem-webdev
 [demo-api]: https://github.com/MediaComem/comem-webdev-express-rest-demo
+[demo-api-doc]: https://mediacomem.github.io/comem-webdev-express-rest-demo/
 [diagrams]: diagrams.pdf
 [git-downloads]: https://git-scm.com/downloads
 [heig]: http://www.heig-vd.ch
