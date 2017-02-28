@@ -86,6 +86,7 @@ Your REST API must be based on (at least) [this domain model](DOMAIN-MODEL.md) a
   * The issue must belong to one user
 * Retrieve an issue
 * Retrieve the list of issues
+  * The client must also be able to retrieve the list of issues that belong to a specific user
   * *Bonus:* the list is paginated
   * *Bonus:* there is at least 1 filter
 * Update an issue (fully or partially)
