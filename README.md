@@ -52,15 +52,21 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
   * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
   * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
   * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
-  * RESTful API documentation
+  * [RESTful API documentation](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/apidoc?home=MediaComem%2Fcomem-webserv%23readme) with apiDoc
 
 
 
 ## What you will need
 
-* [Google Chrome][chrome] (recommended, any browser with developer tools will do)
+* A Unix CLI (Git Bash is included with Git on Windows)
 * [Git][git-downloads]
+* A free [GitHub][github] account
+* [Google Chrome][chrome] (recommended, any browser with developer tools will do)
+* [Node.js][node] 6+
 * [Postman][postman] (recommended, any tool that makes raw HTTP requests will do)
+* [MongoDB][mongodb]
+* A free [Heroku][heroku] account
+* The [Heroku CLI][heroku-cli]
 
 
 
@@ -131,5 +137,10 @@ Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierr
 [diagrams]: diagrams.pdf
 [git-cheatsheet]: https://github.com/MediaComem/comem-webdev/blob/master/GIT-CHEATSHEET.md
 [git-downloads]: https://git-scm.com/downloads
+[github]: https://github.com
+[heroku]: https://www.heroku.com/home
+[heroku-cli]: https://devcenter.heroku.com/articles/heroku-cli
 [heig]: http://www.heig-vd.ch
+[mongodb]: https://www.mongodb.com
+[node]: https://nodejs.org/
 [postman]: https://www.getpostman.com
