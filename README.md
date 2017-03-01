@@ -86,7 +86,8 @@ Your REST API must be based on (at least) [this domain model](DOMAIN-MODEL.md) a
 
 * Create a user
 * Retrieve a user
-  * *Bonus:* the response indicates how many issues the user has created
+* *Optional:* Retrieve the list of users
+  * *Bonus:* the response indicates how many issues each user has created (using aggregation)
 * Update a user (fully or partially)
 * Create an issue
   * The issue must belong to one user
@@ -115,6 +116,8 @@ Your REST API must be based on (at least) [this domain model](DOMAIN-MODEL.md) a
 * *Bonus*: your API must validate the existence of linked resources (e.g. when creating an issue linked to a user)
 
 **Bonuses**
+
+Items with the *Optional* mention are not mandatory.
 
 Items with the *Bonus* mention are not required to obtain the maximum grade,
 but will increase your grade if there are other issues in your project.
