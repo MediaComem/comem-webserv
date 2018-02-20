@@ -26,33 +26,33 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 
 ## Plan
 
-* [Introduction](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/webserv-course?home=MediaComem%2Fcomem-webserv%23readme)
+* [Introduction](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/webserv-course?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Tooling
-  * [Command line](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/cli?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Version control with Git](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/git?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Git branching](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/git-branching?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Collaborating with Git](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/git-collaborating?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Command line](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/cli?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Version control with Git](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/git?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Git branching](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/git-branching?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Collaborating with Git](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/git-collaborating?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Basics
-  * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) JavaScript runtime
-  * [npm](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
-  * [RESTful APIs](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
+  * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) JavaScript runtime
+  * [npm](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
+  * [RESTful APIs](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Creating a web service
-  * [Express](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express?home=MediaComem%2Fcomem-webserv%23readme) web framework
-  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
-  * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
+  * [Express](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/express?home=MediaComem%2Fcomem-webserv%23readme) web framework
+  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
+  * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
 
 * Deploying your web service
-  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
+  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
 
 * Enriching your web service
-  * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
-  * [RESTful API documentation](https://mediacomem.github.io/comem-webdev-docs/2017/subjects/apidoc?home=MediaComem%2Fcomem-webserv%23readme) with apiDoc
+  * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
+  * [RESTful API documentation](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/apidoc?home=MediaComem%2Fcomem-webserv%23readme) with apiDoc
 
 
 
@@ -111,8 +111,10 @@ Your REST API must be based on (at least) [this domain model](DOMAIN-MODEL.md) a
 **Quality of the implementation**
 
 * You must follow REST best practices
+* Your asynchronous code must be correct
 * Your Express routes must handle asynchronous operation errors
-* Your API must validate user input (e.g. using Mongoose validations)
+* You must avoid excessive code duplication (e.g. using Express middleware)
+* Your API must have basic validations on user input (e.g. using Mongoose validations)
 * *Bonus*: your API must validate the existence of linked resources (e.g. when creating an issue linked to a user)
 
 **Bonuses**
@@ -122,9 +124,11 @@ Items with the *Optional* mention are not mandatory.
 Items with the *Bonus* mention are not required to obtain the maximum grade,
 but will increase your grade if there are other issues in your project.
 
+
+
 ### Delivery
 
-Send an e-mail **no later than March 13th 2017** to Simon Oulevay and Jean-Pierre Hess with:
+Send an e-mail **no later than March 23rd 2018** to Simon Oulevay with:
 
 * The list of group members
 * The link to your source code repository on GitHub
