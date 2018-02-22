@@ -74,6 +74,7 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 
 * [Architecture & source code management diagrams][diagrams]
 * [Demonstration REST API implemented with Express][demo-api] ([documentation][demo-api-doc])
+* [Command line cheatsheet][cli-cheatsheet]
 * [Git cheatsheet][git-cheatsheet]
 
 
@@ -137,6 +138,7 @@ Send an e-mail **no later than March 23rd 2018** to Simon Oulevay with:
 
 
 [chrome]: https://www.google.com/chrome/
+[cli-cheatsheet]: https://github.com/MediaComem/comem-webdev/blob/master/CLI-CHEATSHEET.md
 [comem]: http://www.heig-vd.ch/comem
 [comem-webdev]: https://github.com/MediaComem/comem-webdev
 [demo-api]: https://github.com/MediaComem/comem-webdev-express-rest-demo
