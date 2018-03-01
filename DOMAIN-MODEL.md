@@ -30,6 +30,7 @@ They have (at least) the following properties:
   * Change from "new" to "inProgress" to indicate that a city employee is working on the issue
   * Change from "new" or "inProgress" to "canceled" to indicate that a city employee has determined this is not a real issue
   * Change from "inProgress" to "completed" to indicate that the issue has been resolved
+  * Other status transitions should be forbidden by the API
 * `description` - (Optional) String, 1000 characters max, a detailed description of the issue
 * `imageUrl` - (Optional) String, 500 characters max, a URL to a picture of the issue
 * `latitude` - Number, the latitude (part of the coordinates indicating where the issue is)
