@@ -1,12 +1,13 @@
 # COMEM+ Web Services course
 
-The goal of this course is to teach the generic concept of **web service**, focusing on **REST**ful APIs as one way to expose such a service.
+The goal of this course is to teach the generic concept of **web service**,
+focusing on **REST**ful APIs as one way to expose such a service.
 You will:
 
-* Learn the **core principles** of the REST architectural style
-* Learn how to **implement** a RESTful API in JavaScript
-* Learn how to **manage** your source code on a collaborative platform
-* Learn how to **deploy** your RESTful API on a cloud application platform
+* Learn the **core principles** of the REST architectural style.
+* Learn how to **implement** a RESTful API in JavaScript.
+* Learn how to **manage** your source code on a collaborative platform.
+* Learn how to **deploy** your RESTful API on a cloud application platform.
 
 This course is a [COMEM+][comem] [web development course][comem-webdev] taught at [HEIG-VD][heig].
 
@@ -26,33 +27,33 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 
 ## Plan
 
-* [Introduction](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/webserv-course?home=MediaComem%2Fcomem-webserv%23readme)
+* [Introduction](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/webserv-course?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Tooling
-  * [Command line](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/cli?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Version control with Git](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/git?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Git branching](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/git-branching?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Collaborating with Git](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/git-collaborating?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Command line](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/cli?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Version control with Git](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/git?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Git branching](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/git-branching?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Collaborating with Git](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/git-collaborating?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Basics
-  * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) JavaScript runtime
-  * [npm](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
-  * [RESTful APIs](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
+  * [JavaScript](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/js?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Node.js](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/node?home=MediaComem%2Fcomem-webserv%23readme) JavaScript runtime
+  * [npm](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/npm?home=MediaComem%2Fcomem-webserv%23readme) Node.js package manager
+  * [RESTful APIs](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/rest?home=MediaComem%2Fcomem-webserv%23readme)
 
 * Creating a web service
-  * [Express](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/express?home=MediaComem%2Fcomem-webserv%23readme) web framework
-  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
-  * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
+  * [Express](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/express?home=MediaComem%2Fcomem-webserv%23readme) web framework
+  * [MongoDB](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/mongodb?home=MediaComem%2Fcomem-webserv%23readme) document-oriented database
+  * [Mongoose](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/mongoose?home=MediaComem%2Fcomem-webserv%23readme) Object-Document Mapper
 
 * Deploying your web service
-  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
+  * [Heroku](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/heroku?home=MediaComem%2Fcomem-webserv%23readme) cloud application platform
 
 * Enriching your web service
-  * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
-  * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
-  * [RESTful API documentation](https://mediacomem.github.io/comem-webdev-docs/2017-2018/subjects/apidoc?home=MediaComem%2Fcomem-webserv%23readme) with apiDoc
+  * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
+  * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
+  * [RESTful API documentation](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/apidoc?home=MediaComem%2Fcomem-webserv%23readme) with apiDoc
 
 
 
@@ -83,47 +84,38 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 
 **Web Service**
 
-Your REST API must be based on (at least) [this domain model](DOMAIN-MODEL.md) and provide (at least) the following operations:
+Your REST API must provide (at least):
 
-* Create a user
-* Retrieve a user
-* *Optional:* Retrieve the list of users
-  * *Bonus:* the response indicates how many issues each user has created (using aggregation)
-* Update a user (fully or partially)
-* Create an issue
-  * The issue must belong to one user
-* Retrieve an issue
-* Retrieve the list of issues
-  * The client must also be able to retrieve the list of issues that belong to a specific user
-  * *Bonus:* the list is paginated
-  * *Bonus:* there is at least 1 filter
-* Update an issue (fully or partially)
-* Delete an issue
+* User management
+  * New users must be able to register
+  * Log in (users must be able to log in)
+* 2 other resources
+  * Both resources must be linked together
+  * At least one of these resources must be linked to users
+  * Minimal CRUD operations to manage those resources
+* At least one resource must be a paginated list
+* At least one resource must be a list with optional filters
+* At least one resource must provide aggregated data from other resources
+  (e.g. the number of items created by a user)
+* Sensitive operations must be protected by requiring valid authentication
 
 **Infrastructure**
 
-* The source code of your REST API must be in a repository on GitHub
-* Your REST API must be deployed on Heroku
+* The source code of your REST API must be in a repository on GitHub.
+* Your REST API must be deployed on Heroku.
 
 **Documentation**
 
-* Your REST API must be documented
+* Your REST API must be documented.
 
 **Quality of the implementation**
 
-* You must follow REST best practices
-* Your asynchronous code must be correct
-* Your Express routes must handle asynchronous operation errors
-* You must avoid excessive code duplication (e.g. using Express middleware)
-* Your API must have basic validations on user input (e.g. using Mongoose validations)
-* *Bonus*: your API must validate the existence of linked resources (e.g. when creating an issue linked to a user)
-
-**Bonuses**
-
-Items with the *Optional* mention are not mandatory.
-
-Items with the *Bonus* mention are not required to obtain the maximum grade,
-but will increase your grade if there are other issues in your project.
+* You must follow REST best practices.
+* Your asynchronous code must be correct.
+* Your Express routes must handle asynchronous operation errors.
+* You must avoid excessive code duplication (e.g. using Express middleware).
+* Your API must have basic validations on user input (e.g. using Mongoose validations).
+* Your API must validate the existence of linked resources (e.g. when creating an item linked to a user).
 
 
 
