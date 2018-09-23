@@ -84,7 +84,8 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 
 **Web Service**
 
-Your REST API must provide (at least):
+Your REST API must be developed with the Express framework and use a MongoDB database.
+It must provide (at least):
 
 * User management
   * New users must be able to register
