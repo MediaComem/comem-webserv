@@ -122,11 +122,11 @@ It must provide (at least):
 
 ### Delivery
 
-Send an e-mail **no later than March 23rd 2018** to Simon Oulevay with:
+Send an e-mail *no later than __<deadline to be determined>__* to Simon Oulevay with:
 
-* The list of group members
-* The link to your source code repository on GitHub
-* The to your deployed REST API on Heroku
+* The list of group members.
+* The link to your source code repository on GitHub.
+* The to your deployed REST API on Heroku.
 
 
 
