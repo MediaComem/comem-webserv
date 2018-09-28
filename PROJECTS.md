@@ -23,18 +23,24 @@ Ask the community to find where you can buy something.
   * Description
   * Optional picture
   * Creation date
+  * Last modification date
 * **Sighting**
   * Description
   * Geolocation
   * Picture
   * Optional price
   * Creation date
+  * Last modification date
 
 Example of aggregated data:
 
 * The lowest/average/maximum price found for an item.
 * The number of sightings for an item.
 * The number of items created by a user.
+
+Sensitive data:
+
+* A user should not be able to update another user's item or sighting.
 
 
 
@@ -51,16 +57,23 @@ Take pictures of places along your trip.
 * **Trip**
   * Description
   * Creation date
+  * Last modification date
 * **Place**
   * Description
   * Geolocation
   * Picture
   * Creation date
+  * Last modification date
 
 Examples of aggregated data:
 
 * The number of trips made by a user.
 * The number of places in a trip.
+
+Sensitive data:
+
+* A user should not be able to create places linked to another user's trip.
+* A user should not be able to update another user's trips or places.
 
 
 
@@ -79,17 +92,23 @@ Find and rate places to eat, sleep or visit.
   * Geolocation
   * Picture
   * Creation date
+  * Last modification date
 * **Comment**
   * Rating
   * Description
   * Optional picture
   * Creation date
+  * Last modification date
 
 Examples of aggregated data:
 
 * The lowest/average/maximum rating of a place.
 * The number of comments for a place.
 * The number of comments made by a user.
+
+Sensitive data:
+
+* A user should not be able to update another user's comments
 
 
 
