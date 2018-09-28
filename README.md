@@ -77,6 +77,7 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 * [Demonstration REST API implemented with Express][demo-api] ([documentation][demo-api-doc])
 * [Command line cheatsheet][cli-cheatsheet]
 * [Git cheatsheet][git-cheatsheet]
+* [Project suggestions](PROJECTS.md)
 
 
 
@@ -87,18 +88,25 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
 Your REST API must be developed with the Express framework and use a MongoDB database.
 It must provide (at least):
 
-* User management
-  * New users must be able to register
-  * Log in (users must be able to log in)
-* 2 other resources
-  * Both resources must be linked together
-  * At least one of these resources must be linked to users
-  * Minimal CRUD operations to manage those resources
-* At least one resource must be a paginated list
-* At least one resource must be a list with optional filters
-* At least one resource must provide aggregated data from other resources
-  (e.g. the number of items created by a user)
-* Sensitive operations must be protected by requiring valid authentication
+* The API must provide **user management**:
+  * New users must be able to **register**.
+  * Existing users must be able to **authenticate** (to allow users to log in).
+* The API must provide at least **2 other types** of resources:
+  * Both types must be linked together (e.g. aggregation or composition).
+  * At least one of the types must be linked to users.
+  * The API must provide minimal CRUD operations to manage those types.
+* The API must use the knowledge learned during the course:
+  * At least one resource must be a **paginated list**.
+  * At least one resource must be a **list with optional filters**.
+  * At least one resource must provide **aggregated data** from other resources using a [MongoDB aggregation pipeline][mongodb-aggregation]
+    (e.g. the number of items created by a user).
+  * The API must be developed as a backend to a mobile application
+    using at least 2 [**mobile hardware features**][cordova-plugins], for example:
+    * At least one resource must be **geolocated**.
+    * At least one resource must have one or multiple **pictures**
+      (it is sufficient to store a picture URL or URLs in the database).
+  * Sensitive operations must be protected by requiring valid **authentication**.
+    * Authentication must be provided in the form of a [JWT token][jwt] or an equivalent mechanism.
 
 **Infrastructure**
 
@@ -111,7 +119,9 @@ It must provide (at least):
 
 **Quality of the implementation**
 
-* You must follow REST best practices.
+* You must follow REST best practices:
+  * Your REST resources must use appropriate HTTP methods, headers and status codes.
+  * Your REST resources must have a consistent URL hierarchy and/or naming structure.
 * Your asynchronous code must be correct.
 * Your Express routes must handle asynchronous operation errors.
 * You must avoid excessive code duplication (e.g. using Express middleware).
@@ -134,6 +144,7 @@ Send an e-mail *no later than __(deadline to be determined)__* to Simon Oulevay 
 [cli-cheatsheet]: https://github.com/MediaComem/comem-webdev/blob/master/CLI-CHEATSHEET.md
 [comem]: http://www.heig-vd.ch/comem
 [comem-webdev]: https://github.com/MediaComem/comem-webdev
+[cordova-plugins]: https://cordova.apache.org/docs/en/latest/#plugin-apis
 [demo-api]: https://github.com/MediaComem/comem-webdev-express-rest-demo
 [demo-api-doc]: https://mediacomem.github.io/comem-webdev-express-rest-demo/
 [diagrams]: diagrams.pdf
@@ -143,6 +154,8 @@ Send an e-mail *no later than __(deadline to be determined)__* to Simon Oulevay 
 [heroku]: https://www.heroku.com/home
 [heroku-cli]: https://devcenter.heroku.com/articles/heroku-cli
 [heig]: http://www.heig-vd.ch
+[jwt]: https://jwt.io/
 [mongodb]: https://www.mongodb.com
+[mongodb-aggregation]: https://docs.mongodb.com/manual/core/aggregation-pipeline/
 [node]: https://nodejs.org/
 [postman]: https://www.getpostman.com
