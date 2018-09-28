@@ -94,7 +94,7 @@ It must provide (at least):
 * The API must provide at least **2 other types** of resources:
   * Both types must be linked together (e.g. aggregation or composition).
   * At least one of the types must be linked to users.
-  * The API must provide minimal CRUD operations to manage those types.
+  * The API must provide minimal CRUD operations to manage and use those types in a mobile application.
 * The API must use the knowledge learned during the course:
   * At least one resource must be a **paginated list**.
   * At least one resource must be a **list with optional filters**.
