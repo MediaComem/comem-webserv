@@ -53,6 +53,7 @@ This course is a [COMEM+][comem] [web development course][comem-webdev] taught a
   * [RESTful API conventions](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/rest-conventions?home=MediaComem%2Fcomem-webserv%23readme)
   * [Express best practices](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/express-best-practices?home=MediaComem%2Fcomem-webserv%23readme)
   * [Utilizing Mongoose](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/express-mongoose?home=MediaComem%2Fcomem-webserv%23readme) in Express (filtering, pagination, aggregation)
+  * [Express Authentication](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/express-auth?home=MediaComem%2Fcomem-webserv%23readme)
   * [RESTful API documentation](https://mediacomem.github.io/comem-webdev-docs/2018-2019/subjects/apidoc?home=MediaComem%2Fcomem-webserv%23readme) with apiDoc
 
 
