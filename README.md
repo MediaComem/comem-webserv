@@ -133,7 +133,7 @@ It must provide (at least):
 
 ### Delivery
 
-Send an e-mail *no later than __(deadline to be determined)__* to Simon Oulevay with:
+Send an e-mail *no later than __November 5th 2018__* to Simon Oulevay with:
 
 * The list of group members.
 * The link to your source code repository on GitHub.
